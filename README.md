@@ -1,7 +1,7 @@
 # squid-proxy-installer
 
 Auto install Squid 3 proxy on
-
+PORT= 3128;8080
 Ubuntu 14.04
 Ubuntu 16.04
 Debian 8 
@@ -11,7 +11,7 @@ Debian 8
 To install, run the script
 
 ```
-wget https://raw.githubusercontent.com/h1777/squid-proxy-installer/master/squid3-install.sh
+wget https://github.com/malikshi/squid-proxy-installer/raw/master/squid3-install.sh
 chmod 755 squid3-install.sh
 sudo ./squid3-install.sh
 ```
